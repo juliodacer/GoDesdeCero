@@ -5,5 +5,5 @@ import (
 )
 
 func main() {
-	variables.ShowIntegers()
+	variables.RestVariables()
 }
