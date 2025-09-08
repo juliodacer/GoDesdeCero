@@ -1,9 +1,7 @@
 package main
 
 import (
-	"fmt"
-
-	"github.com/juliodacer/GoDesdeCero/ejercicios"
+	"github.com/juliodacer/GoDesdeCero/keyboard"
 )
 
 func main() {
@@ -26,6 +24,8 @@ func main() {
 	// 	fmt.Printf("%s \n", os)
 	// }
 
-	value, result := ejercicios.ConvNumber("fffff")
-	fmt.Println(value, result)
+	// value, result := ejercicios.ConvNumber("fffff")
+	// fmt.Println(value, result)
+
+	keyboard.InputNumbers()
 }
