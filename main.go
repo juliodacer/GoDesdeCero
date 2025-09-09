@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/juliodacer/GoDesdeCero/keyboard"
+	"github.com/juliodacer/GoDesdeCero/bucles"
 )
 
 func main() {
@@ -27,5 +27,13 @@ func main() {
 	// value, result := ejercicios.ConvNumber("fffff")
 	// fmt.Println(value, result)
 
-	keyboard.InputNumbers()
+	// keyboard.InputNumbers()
+
+	// FOR
+	// for {
+	// 	fmt.Println("Hola")
+	// 	break
+	// }
+	bucles.Iterar()
+
 }
