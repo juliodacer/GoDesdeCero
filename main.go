@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/juliodacer/GoDesdeCero/bucles"
+	"github.com/juliodacer/GoDesdeCero/ejercicios"
 )
 
 func main() {
@@ -34,6 +34,7 @@ func main() {
 	// 	fmt.Println("Hola")
 	// 	break
 	// }
-	bucles.Iterar()
+	// bucles.Iterar()
+	ejercicios.MultiplicationTable()
 
 }
